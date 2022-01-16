@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@Styles/randevu_bilgi_frame.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.asitakipprogrami.RandevuBilgiFrame">
+   <children>
+      <Label layoutX="39.0" layoutY="26.0" styleClass="info-text" text="Randevu Bilgilerim">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="132.0" styleClass="info-text" text="Aktif Randevum" textFill="#393939">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Separator layoutX="39.0" layoutY="157.0" prefHeight="2.0" prefWidth="35.0" />
+      <Pane fx:id="aktifRandevuPane" layoutX="39.0" layoutY="172.0" prefHeight="226.0" prefWidth="328.0" styleClass="aktif-randevu-pane" visible="false">
+         <children>
+            <Pane layoutX="14.0" layoutY="14.0" prefHeight="48.0" prefWidth="301.0" styleClass="date-pane">
+               <children>
+                  <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/calendar.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="dateText" layoutX="63.0" layoutY="11.0" text="16 Haziran 2021 16.30" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Label fx:id="vaccineText" layoutX="14.0" layoutY="72.0" text="Covid-19 Aşı Randevusu (Biontech)">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="hospitalText" layoutX="51.0" layoutY="108.0" text="Sultanbeyli Devlet Hastanesi" textFill="#4a4a4a">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/hospital.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="14.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/numbers.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="roomText" layoutX="51.0" layoutY="149.0" text="Aşı Odası 4" textFill="#4a4a4a">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="cancelButton" layoutX="120.0" layoutY="187.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" styleClass="cancel-button" text="İptal Et" />
+         </children>
+      </Pane>
+      <Label layoutX="39.0" layoutY="423.0" styleClass="info-text" text="Geçmiş Randevularım" textFill="#393939">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Separator layoutX="39.0" layoutY="458.0" prefHeight="2.0" prefWidth="35.0" />
+      <Separator layoutX="738.0" orientation="VERTICAL" prefHeight="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Label layoutX="860.0" layoutY="26.0" styleClass="info-text" text="Yan Etkilerle Karşılaştığımda Ne yapmalıyım?" textFill="#d30000">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="793.0" layoutY="89.0" styleClass="info-text" text="• Aşı uygulanan bölgede ağrı/şişlik/kızarıklık">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="793.0" layoutY="117.0" prefHeight="69.0" prefWidth="454.0" styleClass="info-text" text="Aşı uygulanan kolunuza yüksekte olacak şekilde pozisyon veriniz. Soğuk uygulama yapınız. (Örnek: Soğuk suyla ıslatılmış bir havlunun aşı yapılan bölgeye uygulanması vb. Bu sırada cilde doğrudan buz temas ettirilmesinden kaçınılmalıdır.)Parasetamol içeren ağrı kesiciler kullanılabilir." wrapText="true" />
+      <Label layoutX="793.0" layoutY="210.0" styleClass="info-text" text="• Yorgunluk">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="793.0" layoutY="237.0" prefHeight="32.0" prefWidth="454.0" styleClass="info-text" text="İstirahat ediniz, yeterli sıvı aldığınızdan emin olunuz." wrapText="true" />
+      <Label layoutX="793.0" layoutY="295.0" styleClass="info-text" text="• Hafif ateş, titreme ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="793.0" layoutY="321.0" prefHeight="48.0" prefWidth="454.0" styleClass="info-text" text="İstirahat ediniz, yeterli sıvı aldığınızdan emin olunuz, parasetamol içeren ağrı kesiciler kullanabilirsiniz." wrapText="true" />
+      <Label layoutX="793.0" layoutY="397.0" styleClass="info-text" text="• Baş ağrısı ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="793.0" layoutY="423.0" prefHeight="25.0" prefWidth="454.0" styleClass="info-text" text="Parasetamol içeren ağrı kesiciler kullanabilirsiniz." wrapText="true" />
+      <Label layoutX="793.0" layoutY="469.0" styleClass="info-text" text="• Kusma, ishal ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="793.0" layoutY="495.0" prefHeight="56.0" prefWidth="454.0" styleClass="info-text" text="Bol sıvı takviyesi yapabilirsiniz, beslenmenizi ishal diyetine uygun olarak düzenleyebilirsiniz. Ağızdan sıvı ve gıda alınamayacak kadar kusma olması durumunda sıvı kaybı olabileceğinden sağlık kuruluşuna başvurunuz." wrapText="true" />
+      <Label fx:id="gecmisEmptyLabel" layoutX="172.0" layoutY="564.0" text="Henüz geçmiş bir randevunuz bulunmuyor..." textFill="#575757">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="gecmisEmptyImage" fitHeight="64.0" fitWidth="64.0" layoutX="246.0" layoutY="488.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/empty.png" />
+         </image>
+      </ImageView>
+      <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutX="29.0" layoutY="456.0" prefHeight="256.0" prefWidth="671.0" style="-fx-background-color: #EBEBEB;">
+        <content>
+          <AnchorPane style="-fx-background-color: #EBEBEB;">
+               <children>
+                  <VBox fx:id="gecmisRandevuVBox" style="-fx-background-color: #EBEBEB;" />
+               </children>
+            </AnchorPane>
+        </content>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </ScrollPane>
+      <Label fx:id="aktifEmptyLabel" layoutX="47.0" layoutY="278.0" styleClass="info-text" text="Henüz aktif bir randevunuz bulunmuyor..." textFill="#575757">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="aktifEmptyImage" fitHeight="64.0" fitWidth="64.0" layoutX="121.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/empty.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

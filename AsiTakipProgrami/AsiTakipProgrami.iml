@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/jsoup-1.14.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.27.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/jar_files (2)/javafx-web-11.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="jar://$USER_HOME$/Downloads/jar_files (2)/javafx-web-11.0.1.jar!/" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:17.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:win:17.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:17.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:win:17.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:17.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:win:17.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:17.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:win:17.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.8.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.8.2" level="project" />
+    <orderEntry type="library" name="Maven: com.yxt.opensdk.atool.subunit:webview:1.3.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.yxt.opensdk.atool.subunit:webview_annotation:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.yxt.opensdk.atool:frame_modules:1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.yxt.opensdk.atool.router:arouter_api:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.yxt.opensdk.atool.router:arouter_annotation:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.android.support:support-v4:28.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.yxt.opensdk.atool:ui_adapterhelper:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.yxt.opensdk.atool:ui_autolayout:1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.yxt.opensdk.atool:ui_language:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.yxt.opensdk.atool:ui_skin_support:1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.android.support:design:28.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.yxt.opensdk.atool:ui_imageloader:1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.yxt.opensdk.atool:tool_log:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.yxt.opensdk.atool:tool_http:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.squareup.okio:okio:1.13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.code.gson:gson:2.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.squareup.okhttp3:okhttp:3.9.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: ch.acra:acra-core:5.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.android.support:appcompat-v7:28.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.yxt.opensdk.atool:tool_http_state:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.yxt.opensdk.atool:tool_utils:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.14.3" level="project" />
+  </component>
+</module>

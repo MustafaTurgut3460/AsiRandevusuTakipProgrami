@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@Styles/kullanici_bilgi_frame.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.asitakipprogrami.KullaniciBilgiFrame">
+   <Pane layoutY="-11.0" prefHeight="166.0" prefWidth="1280.0" style="-fx-background-color: #00B27F; -fx-background-radius: 10;">
+      <children>
+          <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="590.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+              <Image url="@Images/profile.png" />
+          </ImageView>
+         <Label layoutX="530.0" layoutY="28.0" style="-fx-text-fill: white;" text="Kullanıcı Bilgilerim" textFill="#f8f8f8">
+            <font>
+               <Font name="System Bold" size="25.0" />
+            </font>
+         </Label>
+      </children>
+   </Pane>
+    <Label fx:id="userTitleText" alignment="CENTER" contentDisplay="CENTER" layoutX="482.0" layoutY="203.0" prefHeight="20.0" prefWidth="319.0" styleClass="main-title" text="MUSTAFA TURGUT" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS">
+        <font>
+          <Font name="System Bold" size="20.0" />
+        </font>
+    </Label>
+    <Label layoutX="604.0" layoutY="283.0" styleClass="bilgilerim-text" text="Bilgilerim" textFill="#2f2f2f">
+        <font>
+          <Font name="System Bold" size="18.0" />
+        </font>
+    </Label>
+    <Separator layoutX="604.0" layoutY="309.0" prefHeight="3.0" prefWidth="37.0" />
+    <Label layoutX="515.0" layoutY="339.0" styleClass="info-text" text="TC Kimlik No :">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+    <Label fx:id="userTCText" layoutX="675.0" layoutY="339.0" styleClass="info-text" text="16340369158">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+    <Label layoutX="515.0" layoutY="375.0" styleClass="info-text" text="Ad Soyad :">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+    <Label fx:id="usernameText" layoutX="675.0" layoutY="375.0" styleClass="info-text" text="Mustafa Turgut">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+    <Label layoutX="515.0" layoutY="411.0" styleClass="info-text" text="Telefon Numarası :">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+    <Separator layoutX="517.0" layoutY="364.0" prefHeight="3.0" prefWidth="233.0" />
+    <Separator layoutX="517.0" layoutY="399.0" prefHeight="3.0" prefWidth="233.0" />
+    <Separator layoutX="517.0" layoutY="436.0" prefHeight="3.0" prefWidth="233.0" />
+    <Label fx:id="userTelNoText" layoutX="675.0" layoutY="410.0" styleClass="info-text" text="05511760790">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+    <Label layoutX="515.0" layoutY="449.0" styleClass="info-text" text="Aşı Durumu :">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+    <Label fx:id="userVaccineInfoText" layoutX="675.0" layoutY="449.0" styleClass="info-text" text="2 Doz Biontech">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+    <Separator layoutX="517.0" layoutY="476.0" prefHeight="3.0" prefWidth="233.0" />
+    <Label layoutX="515.0" layoutY="493.0" styleClass="info-text" text="Doğum Tarihi :">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+    <Label fx:id="userDateText" layoutX="675.0" layoutY="493.0" styleClass="info-text" text="03.09.2002">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+    <Separator layoutX="515.0" layoutY="520.0" prefHeight="3.0" prefWidth="233.0" />
+    <Button fx:id="editButton" alignment="CENTER" contentDisplay="CENTER" layoutX="577.0" layoutY="608.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="114.0" styleClass="edit-button" text="Düzenle">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font></Button>
+    <Label layoutX="517.0" layoutY="535.0" styleClass="info-text" text="Cinsiyet :">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+    <Label fx:id="userGateText" layoutX="677.0" layoutY="535.0" styleClass="info-text" text="Erkek">
+      <font>
+         <Font size="14.0" />
+      </font></Label>
+    <Separator layoutX="517.0" layoutY="562.0" prefHeight="3.0" prefWidth="233.0" />
+</AnchorPane>

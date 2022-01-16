@@ -1,0 +1,6 @@
+
+.menuLabel:hover{
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-background-radius: 6px;
+}

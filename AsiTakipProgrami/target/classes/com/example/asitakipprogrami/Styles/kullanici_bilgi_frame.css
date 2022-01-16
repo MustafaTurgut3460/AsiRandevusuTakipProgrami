@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.edit-button{
+    -fx-background-color: #00B490;
+    -fx-background-radius: 6px;
+    -fx-text-fill: white;
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.main-title{
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.bilgilerim-text{
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.info-text{
+    -fx-font-family: 'Righteous', cursive;
+}

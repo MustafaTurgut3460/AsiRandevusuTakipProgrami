@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.vaccineButton:hover{
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.vaccineButton{
+    -fx-background-color: lightgray;
+    -fx-text-fill: black;
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.randevu-al-button{
+    -fx-background-color: #00B27F;
+    -fx-background-radius: 6px;
+    -fx-text-fill: white;
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.hastane-secim-pane{
+    -fx-background-color: lightgray;
+    -fx-background-radius: 8px;
+}
+
+.hastane-secim-searchbar{
+    -fx-background-radius: 6px;
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.hastane-secim-listview{
+    -fx-background-radius: 8px;
+}
+
+.title-text{
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.info-text{
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.main-title{
+    -fx-font-family: 'Righteous', cursive;
+}
+

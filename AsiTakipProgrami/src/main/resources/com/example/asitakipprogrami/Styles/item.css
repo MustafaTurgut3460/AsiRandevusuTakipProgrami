@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.date-text{
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.vaccine-text{
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.hospital-text{
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.room-text{
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.type-text{
+    -fx-font-family: 'Righteous', cursive;
+}

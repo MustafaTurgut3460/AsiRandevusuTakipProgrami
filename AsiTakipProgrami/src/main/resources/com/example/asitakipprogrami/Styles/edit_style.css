@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.textfield{
+    -fx-background-radius: 6px;
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.save-button{
+    -fx-background-color: #00B27F;
+    -fx-background-radius: 8px;
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.main-title{
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.textfieldLabel{
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.radio-button{
+    -fx-font-family: 'Righteous', cursive;
+}

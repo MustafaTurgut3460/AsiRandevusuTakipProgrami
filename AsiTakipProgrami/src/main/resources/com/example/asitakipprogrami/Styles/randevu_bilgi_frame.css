@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.aktif-randevu-pane{
+    -fx-background-color: #DADADA;
+    -fx-background-radius: 8px;
+}
+
+.date-pane{
+    -fx-background-color: #00B490;
+    -fx-background-radius: 6px;
+}
+
+.gecmis-date-pane{
+    -fx-background-color: #00B490;
+    -fx-background-radius: 6px;
+}
+
+.see-all-button{
+    -fx-background-color: lightgray;
+    -fx-background-radius: 6px;
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.cancel-button{
+    -fx-background-radius: 6px;
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.info-text{
+    -fx-font-family: 'Righteous', cursive;
+}

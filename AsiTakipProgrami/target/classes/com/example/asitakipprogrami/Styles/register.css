@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.mainPane{
+    -fx-background-color: #CEE6EA;
+}
+
+.registerPane{
+    -fx-background-color: white;
+    -fx-background-radius: 8px
+}
+
+.textfield{
+    -fx-background-radius: 6px
+    -fx-font-family: 'Righteous', cursive;
+}
+.passwordfield{
+    -fx-background-radius: 6px
+}
+
+.radioButton{
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.registerButton{
+    -fx-background-color: red;
+    -fx-background-radius: 8px;
+    -fx-text-fill: white;
+    -fx-font-family: 'Righteous', cursive;
+}
+
+.main-title{
+    -fx-font-family: 'Righteous', cursive;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@Styles/edit_style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.asitakipprogrami.EditPage">
+   <children>
+      <Label layoutX="537.0" layoutY="110.0" styleClass="main-title" text="Bilgilerini Düzenle">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="546.0" layoutY="182.0" styleClass="textfieldLabel" text="Ad Soyad">
+         <font>
+            <Font name="Consolas Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="editNameInput" layoutX="544.0" layoutY="209.0" prefHeight="34.0" prefWidth="191.0" promptText="Adınızı Giriniz" styleClass="textfield" />
+      <Label layoutX="546.0" layoutY="261.0" styleClass="textfieldLabel" text="TC kimlik No">
+         <font>
+            <Font name="Consolas Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="editTCInput" layoutX="544.0" layoutY="288.0" prefHeight="34.0" prefWidth="191.0" promptText="Adınızı Giriniz" styleClass="textfield" />
+      <Label layoutX="546.0" layoutY="347.0" styleClass="textfieldLabel" text="Telefon Numarası">
+         <font>
+            <Font name="Consolas Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="editTelInput" layoutX="544.0" layoutY="374.0" prefHeight="34.0" prefWidth="191.0" promptText="Adınızı Giriniz" styleClass="textfield" />
+      <Label layoutX="546.0" layoutY="433.0" styleClass="textfieldLabel" text="Doğum Tarihi">
+         <font>
+            <Font name="Consolas Bold" size="13.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="editDateInput" layoutX="544.0" layoutY="463.0" prefHeight="34.0" prefWidth="191.0" />
+      <RadioButton fx:id="editRadioMale" layoutX="546.0" layoutY="557.0" mnemonicParsing="false" text="Erkek">
+         <toggleGroup>
+            <ToggleGroup fx:id="cinsiyet" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="editRadioFemale" layoutX="640.0" layoutY="557.0" mnemonicParsing="false" text="Kadın" toggleGroup="$cinsiyet" />
+      <Label layoutX="546.0" layoutY="527.0" styleClass="textfieldLabel" text="Cinsiyet">
+         <font>
+            <Font name="Consolas Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="saveButton" layoutX="498.0" layoutY="645.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="284.0" styleClass="save-button" text="KAYDET" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="608.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/edit_profile.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="87.0" prefWidth="626.0" stylesheets="@Styles/item.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.asitakipprogrami.EskiRandevuItem">
+   <children>
+      <Pane layoutY="10.0" prefHeight="67.0" prefWidth="169.0" style="-fx-background-color: #00B490; -fx-background-radius: 8;">
+         <children>
+            <Label fx:id="dateText" layoutX="25.0" layoutY="23.0" styleClass="date-text" text="23.12.2021 09.20" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label fx:id="hospitalText" layoutX="227.0" layoutY="47.0" prefHeight="20.0" prefWidth="197.0" styleClass="hospital-text" text="Sultanbeyli Devlet Hastanesi" textFill="#000000d1">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="vaccineText" layoutX="185.0" layoutY="10.0" styleClass="vaccine-text" text="Covid 19 Aşı Randevusu (Biontech)">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="randevuTipText" layoutX="533.0" layoutY="15.0" styleClass="type-text" text="Geçmiş Randevu" textFill="#039c55">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="185.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/hospital.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="vaccineRoomText" layoutX="465.0" layoutY="47.0" styleClass="room-text" text="Aşı Odası 4" textFill="#000000ce">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="430.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/numbers.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

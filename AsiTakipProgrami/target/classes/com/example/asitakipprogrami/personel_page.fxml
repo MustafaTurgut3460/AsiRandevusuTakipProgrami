@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" stylesheets="@Styles/personel.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.asitakipprogrami.PersonelPage">
+   <children>
+      <Label layoutX="97.0" layoutY="38.0" styleClass="asi-title" text="Aşı Randevuları">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="button" layoutX="565.0" layoutY="510.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="211.0" style="-fx-background-color: red; -fx-text-fill: white; -fx-background-radius: 6;" styleClass="buton" text="Tamamlandı Olarak İşaretle" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tableView" layoutX="50.0" layoutY="89.0" prefHeight="401.0" prefWidth="726.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="257.0" text="Hasta Ad" />
+          <TableColumn fx:id="typeColumn" minWidth="0.0" prefWidth="123.0" text="Aşı Türü" />
+            <TableColumn fx:id="roomColumn" prefWidth="149.0" text="Aşı Odası" />
+            <TableColumn fx:id="dateColumn" prefWidth="120.0" text="Tarih" />
+            <TableColumn fx:id="clockColumn" prefWidth="76.0" text="Saat" />
+        </columns>
+      </TableView>
+      <Label layoutX="993.0" layoutY="39.0" styleClass="asi-title" text="Personel Bilgileri">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="50.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/covid_vaccine.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="32.0" layoutX="950.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/nurse.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="915.0" layoutY="121.0" styleClass="info-text" text="Ad Soyad: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameText" layoutX="1038.0" layoutY="121.0" styleClass="info-text" text="Mustafa Turgut" textFill="#4a4a4a">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="915.0" layoutY="157.0" styleClass="info-text" text="Hastane: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="hospitalText" layoutX="1038.0" layoutY="157.0" styleClass="info-text" text="Sultanbeyli Devlet Hastanesi" textFill="#4a4a4a">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="915.0" layoutY="148.0" prefHeight="4.0" prefWidth="262.0" />
+      <Separator layoutX="915.0" layoutY="183.0" prefHeight="4.0" prefWidth="262.0" />
+      <Label layoutX="915.0" layoutY="198.0" styleClass="info-text" text="Kullanıcı Adı: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="usernameText" layoutX="1038.0" layoutY="198.0" styleClass="info-text" text="user1" textFill="#4a4a4a">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="915.0" layoutY="224.0" prefHeight="4.0" prefWidth="262.0" />
+      <Button fx:id="exitButton" layoutX="997.0" layoutY="274.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="119.0" style="-fx-background-color: red; -fx-background-radius: 6;" styleClass="buton" text="Çıkış Yap" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
